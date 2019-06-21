@@ -19,11 +19,26 @@ Scaffold for lab projects for 401
 ### Documentation
 
 Dependencies
+
 jest
-lint
+
+eslint
+
+dotenv
+
+@nmq/q
 
 Modules
 
+`./index.js`
+
+`./app/app.js`
+
+`./lib/read.js`
+
+`./lib/convertCase.js`
+
+`./lib/write.js`
 
 Exported Values and Methods
 
@@ -32,7 +47,9 @@ Exported Values and Methods
 
 Running the app
 
-`npm start`
+#### `./index.js`
+
+This is the entry point of the application that accepts the application's command line arguments for the `alterFile` function.
 
 ### Tests
 How do you run tests?
